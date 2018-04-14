@@ -1,3 +1,3 @@
 # YumzBY
 
-Files for Yumz by Yaw website and mobile application
+Future mobile app design for New York-based dessert proprietor.
