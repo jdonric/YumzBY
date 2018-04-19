@@ -1,0 +1,161 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#f6ff7e"
+tools:context="com.jiellr.yumzby.ConfectionActivity">
+
+<!--Main Layout-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Page Title-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="12dp"
+            android:text="Confections"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+    <!-- What Kind? -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!--Sub-heading-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="4dp"
+            android:text="What kind?"
+            android:textSize="23sp" />
+
+        <!--chocolate chip-->
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:elevation="4dp"
+            android:paddingHorizontal="32dp"
+            android:text="peanut brittle"
+            android:textAllCaps="false"
+            android:textColor="#604020"
+            android:textSize="18sp" />
+        <!--strawberry shortcake-->
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:text="peppermint kiss"
+            android:textAllCaps="false"
+            android:textColor="#ff0066"
+            android:textSize="17sp" />
+
+        <!--vanilla macaroon-->
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:elevation="4dp"
+            android:paddingHorizontal="25dp"
+            android:text="yellow cake pop"
+            android:textAllCaps="false"
+            android:textColor="#ffcc00"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!--How many?-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="4dp"
+            android:text="How many?"
+            android:textSize="23sp" />
+
+        <!--Quantity-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:elevation="4dp"
+                android:padding="5dp"
+                android:text="-"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="18dp"
+                android:text="0"
+                android:textSize="19sp" />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:elevation="4dp"
+                android:padding="5dp"
+                android:text="+"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--Continue order-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="9dp"
+            android:background="#f6ff7e"
+            android:text="next" />
+    </RelativeLayout>
+
+
+    <!--End of Main Layout-->
+</LinearLayout>
+</ScrollView>
