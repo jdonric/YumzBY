@@ -1,90 +1,193 @@
 <html>
 <head>
-<title> YumzBY</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+<title> YumzBY | app coming soon</title>
+    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="http://res.cloudinary.com/rapha3l/image/upload/v1529286602/yLogo617tab_yzhv6u.png">
 <style type="text/css">
     
     body {
-        background-color: wheat;
+       
+        
+        background-image: url('http://res.cloudinary.com/rapha3l/image/upload/v1529301814/ydotcom_erloyz.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+       width:100%;
+        display: block;
+      margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+       position: absolute;
+        z-index: 1;
+       
     }
     
     #background-image {
-        
-        background-image: url(ingredient.jpg);
-        background-repeat: no-repeat;
-       width: 660px;
-        display: block;
-        left: 0;
-        right: 0;
-        height: 800px;
-        filter: blur(4px);
-        -webkit-filter: blur(4px);
-        position: fixed;
-        z-index: 1;
-    }
-    
-    #content {
+         background-color: #c6c4d5;
         z-index: 2;
-        position: fixed;
-       float: center;
-        
-       
-        width: 95%;
-      
-        
+        position: absolute;
+        opacity: 0.7;
     }
     
-    #divOne, #divTwo {
-        display: inline-block;
+  
+    
+    #background-image, #content {
+      display: block;
     }
     
     h1 {
-        font-family:'Poppins', sans-serif; 
-        font-size: 57px;
-        letter-spacing: 10px;
-        text-align: right;
-        margin-left: 320px;
-        margin-top: 30px;
-       color: white;
-       
-        
-        
+      font-family: "Princess Sofia", cursive;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+      width: 410px;
+      height: auto;
+      font-size: 52px;
+      text-align: center;
+      margin-top: 100px;
+      letter-spacing: 4px;
+      color: 	 #734d26;
     }
     
-    #logo {
-     
-        width: 255px;
-        height: auto;
-        margin-top: 70px;
-        margin-left: 150px;
-        
+    h3 {
+      color: white;
+      font-family: "Princess Sofia", cursive;
+    margin-left: 10%;
+    
+    
+      width: 400px;
+      height: auto;
+      font-size: 49px;
+      text-align: center;
+      margin-top: 70px;
+      z-index: 2;
+      letter-spacing: 4px;
+    }
+
+
+   #content {
+       display: block;
+   }
+    
+    p {
+      width: 370px;
+      display: block;
+      line-height: 19px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 17px;
+      letter-spacing: 1px;
+      font-family: "poppins", san-serif;
+      
     }
     
-    #logo h1 {
+    #yaw {
+      width: 56%;
+      height:auto;
+      display: block;
+      margin-left:auto;
+      margin-right: auto;
+      border-radius: 50%;
+    }
+
+    #quote {
+        width: 41%;
+        height:auto;
+        z-index:2;
+        
+      
+    }
+    
+    #droid {
+      width: 23%;
+      z-index: 2;
+      height:auto;
+      margin-left: 11%;
+    }
+
+    #quote, #droid {
         display: inline-block;
     }
-    
-    button {
-        margin-left: 500px;
-        background-color: black;
-        padding: 12px;
-        border-style: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        color:white;
+   
+    #contact {
+      width: 100px;
+      font-family: "poppins", san-serif;
+      font-size: 11px;
+      
     }
     
     a:link {
-        color: white;
-        text-decoration: none;
+      color: #734d26;
+      text-decoration: none;
     }
     
     a:hover {
-        color: #99e265;
+      cursor: pointer;
+      color: #c8a2c8;
     }
     
     a:visited {
-        color: darkgray;
+      color: gray;
+    }
+    
+    #head {
+      width: 50%;
+      height: auto;
+    }
+    
+    #nodeForm {
+      width: 40%;
+      height: auto;
+      
+    }
+    
+    #nodeForm, #head {
+      display: inline-block;
+     
+    }
+    
+    .regularContct, .largeContact {
+      margin-top: 15px;
+      display: inline;
+      font-family: poppins;
+      font-size: 11px;
+    }
+    
+    .regularContact {
+      width: 350px;
+      height: 28px;
+      
+    }
+    .largeContact {
+      width: 400px;
+      height: 200px;
+    }
+    
+    .nameEmail {
+      margin-top: 10px;
+      font-size: 12px;
+      font-family: poppins;
+    }
+    
+    .message {
+      margin-top: 10px;
+      font-family: poppins;
+      font-size: 14px;
+    }
+    
+    h4 { 
+      font-size: 20px;
+      font-family: poppins;
+    }
+    
+    button {
+      margin: 20px;
+      padding: 10px;
+      background-color: #c8a2c8;
+      font-family: poppins;
+      font-size: 12px;
+      border-style: none;
+      
     }
     
     
@@ -93,17 +196,53 @@
 
   </head>
 <body>
-    <div id="background-image"></div>
-    <div id="content">
-        <div id="divOne">
-        <img id="logo" src="0_yumzby_logo.png">
-            </div>
-        <div id="divTwo">
-        <h1> COMING SOON</h1>
-        <button><a href="jiellr.com"> Contact Developer</a></button>
+
+<div id="head"> 
+   
+    
+    
+     <h3>App coming soon! </h3>
+   <img id="droid" src="http://res.cloudinary.com/rapha3l/image/upload/v1524668299/android_frrkv5.png">
+   <a href="https://yumzby.com/quiz.html"><img id="quote" src="http://res.cloudinary.com/rapha3l/image/upload/v1526164385/quote_fhhqov.png"></a>
     </div>
-    </div>
+    
+    
+    
+
+   <div id="nodeForm">
+       <form>
+       
+       <h4> Conact Us!</h4>
+       <div class="nameEmail">
+       <label >Name:</label>
+       <input class="regularContact" name="contactName" type="text">
+      </div>
+      <div class="nameEmail">
+       <label>Email:</label>
+       <input class="regularContact" name="contactEmail" type="email">
+       </div>
+       <div class="message">
+       <label> What would you like to know?</label>
+       <input class="largeContact" name="contactMessage" type="text">
+       </div>
+       
+       <button> Submit</button>
+       </form>
+   
+   </div>
+  
+  
+   
+   
+   
+  
+    
+   
+        
+       
     
     
     </body>
 </html>
+        
+       
