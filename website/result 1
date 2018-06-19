@@ -1,0 +1,86 @@
+<html>
+<head>
+<title> YumzBY | What's your dessert personality?</title>
+    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="http://res.cloudinary.com/rapha3l/image/upload/v1529286602/yLogo617tab_yzhv6u.png">
+<style type="text/css">
+         body {
+             margin: 0;
+             background-color: #c8a2c8;
+         }
+         
+         img {
+             width:auto;
+             height: 100%;
+             margin: 0;
+           float: right;
+            
+         }
+
+         h2 {
+             font-family: poppins;
+             font-size: 28px;
+             width: 170px;
+             letter-spacing: 1px;
+             color: #86592d;
+             float: left;
+             margin-left: 5%;
+             margin-top: 5%;
+             
+         }
+
+         h3, img {
+             display: inline-block;
+         }
+
+         p{
+             width: 170;
+             font-size: 14px;
+             font-family: poppins;
+             color: white;
+             margin-left: 4%;
+            
+         }
+
+         p, h3 {
+             display: block;
+         }
+
+         p, img {
+             display: inline-block;
+         }
+      h5 {
+          margin-left: 6%;
+          font-family: poppins;
+          color:#dfbf9f;
+      }
+      
+      a:link {
+        text-decoration: none;
+        color:#dfbf9f;
+      }
+      
+      a:hover {
+        color: purple;
+      }
+      
+      a:visited {
+         color: gray;
+      }
+    </style>
+    </head>
+
+    <body>
+
+        <h2> You're <br>a <br><b>Refined Adventure!</b></h2>
+        
+
+        <img src="http://res.cloudinary.com/rapha3l/image/upload/v1526162895/refined-adventure_zilszb.jpg">
+        <p>To you, eating dessert is about more than just satifying a sugar craving. You are likely the first customer to try the "myster flavor"
+             and you're probably pronuncing half of your favorite chocolate candies wrong. Dessert is an expereince, not just another meal. </p>
+            
+
+            <h5> <a href="index.html"> Home</a></h5>
+    </body>
+    </html>
