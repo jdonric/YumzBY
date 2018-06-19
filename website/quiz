@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> YumzBY | What's Your Dessert Personality?</title>
+        <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="http://res.cloudinary.com/rapha3l/image/upload/v1529286602/yLogo617tab_yzhv6u.png">
+        <style> 
+
+        /*general styling*/
+          body {
+              background-color: #ecd9c6;
+              
+          }
+
+          h2 {
+              font-family: Poppins;
+              font-size: 24px;
+              letter-spacing: 2px;
+              color:#86592d;
+              border-color:  #ecd9c6;
+              border-width: 2px;
+              border-style: solid;
+                  padding: 30px;
+          }
+
+          .answer1, .answer2, .answer3, #answer4, #answer5 {
+              text-align: center;
+              width: 120px;
+              height: 120px;
+              color: #dcd8f5;
+              border-color: #c8a2c8;
+              border-width: 3px;
+              border-style: solid;
+              border-radius: 75%;
+              background-color:#c8a2c8;
+              padding: 55px;
+              display: inline-block;
+              margin: 20px;
+              font-family: Poppins;
+              letter-spacing: 2px;
+              font-size: 16px;
+              cursor: pointer;
+             box-shadow: 6px 5px 7px #dfbf9f;
+             transition-property: display;
+             transition-delay: 1s;
+             transition-duration: 3s;
+          
+          }
+
+          /*individual quiz-boxes*/
+      #quiz-box1 {
+              
+              display: block;
+             z-index: 5;
+             text-align: center;
+              margin-top: 125px;
+      }
+   
+
+    #quiz-box2 {
+        
+              
+              display: none;
+             z-index: 4;
+             text-align: center;
+              margin-top: 125px;
+      }
+
+         #quiz-box3 {
+        
+        
+        display: none;
+       z-index: 3;
+       text-align: center;
+              margin-top: 125px;
+}
+
+#quiz-box4 {
+        
+        
+    display: none;
+       z-index: 2;
+       text-align: center;
+              margin-top: 125px;
+}
+
+/* decision links */
+a:link {
+    color: #dcd8f5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dcd8f5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #dcd8f5;
+    text-decoration: none;
+}
+
+
+          
+        </style>     
+    </head>
+    
+    <body>
+
+    <div id="quiz-box1" >
+        <h2> Dessert is best enjoyed...</h2>
+
+        <div class="answer1"> After a good meal</div>
+        <div class="answer1"> After a long day</div>
+    </div>
+
+    <div id="quiz-box2" >
+            <h2>When't the best time to enjoy ice cream?</h2>
+    
+            <div class="answer2"> Anytime!</div>
+            <div class="answer2"> Summer</div>
+        </div>
+
+        <div id="quiz-box3" >
+                <h2> Sweet or savory?</h2>
+        
+                <div  class="answer3"> Sweet</div>
+                <div  class="answer3"> Savory</div>
+            </div>
+
+            <div id="quiz-box4" >
+                    <h2> Pick a holiday</h2>
+            
+                    <div id="answer4"> <a href="adventurer.html">Halloween</a></div>
+                    <div id="answer5"> <a href="sweet_tooth.html">Valentine's</a></div>
+                </div> 
+
+    <script>
+        /* Full box variable */
+          var one = document.getElementById('quiz-box1');
+          var two = document.getElementById('quiz-box2');
+          var three = document.getElementById('quiz-box3');
+          var four = document.getElementById('quiz-box4');
+
+          /* Answer variables */
+          var a1 = document.getElementsByClassName('answer1');
+          var a2 = document.getElementsByClassName('answer2');
+          var a3 = document.getElementsByClassName('answer3');
+
+          /* Decision links -- are they needed?
+          var halloween = document.getElementById('answer4');
+          var valentine = document.getElementById('answer5');*/
+          
+            /* functions */
+          function answer1() {
+              one.style.display = "none";
+              two.style.display = "block";
+          }
+
+        
+
+          function answer2() {
+              two.style.display = "none";
+              three.style.display = "block";
+          }
+
+
+          function answer3() {
+              three.style.display = "none";
+              four.style.display = "block";
+          }
+
+
+          a1[0].addEventListener("click", answer1);
+          a1[1].addEventListener("click", answer1);
+          
+          a2[0].addEventListener("click", answer2);
+          a2[1].addEventListener("click", answer2);
+
+          a3[0].addEventListener("click", answer3);
+          a3[1].addEventListener("click", answer3);
+
+
+
+    </script>
+    </body>
+
+
+</html>
