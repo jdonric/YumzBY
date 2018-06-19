@@ -1,0 +1,87 @@
+<html>
+<head>
+<title> YumzBY | What's your dessert personality?</title>
+    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="http://res.cloudinary.com/rapha3l/image/upload/v1529286602/yLogo617tab_yzhv6u.png">
+<style type="text/css">
+         body {
+             margin: 0;
+             background-color:  #dfbf9f;
+         }
+         
+         img {
+             width:auto;
+             height: 100%;
+             margin: 0;
+           float: right;
+            
+         }
+
+         h2 {
+             font-family: poppins;
+             font-size: 28px;
+             width: 170px;
+             letter-spacing: 1px;
+             color: #86592d;
+             float: left;
+             margin-left: 5%;
+             margin-top: 5%;
+             
+         }
+
+         h3, img {
+             display: inline-block;
+         }
+
+         p{
+             width: 170;
+             font-size: 14px;
+             font-family: poppins;
+             color: white;
+             margin-left: 4%;
+            
+         }
+
+         p, h3 {
+             display: block;
+         }
+
+         p, img {
+             display: inline-block;
+         }
+
+         h5 {
+          margin-left: 6%;
+          font-family: poppins;
+          color:#c8a2c8;
+         }
+         
+          a:link {
+        text-decoration: none;
+        color:#c8a2c8;
+      }
+      
+      a:hover {
+        color: purple;
+      }
+      
+      a:visited {
+         color: gray;
+      }
+    </style>
+    </head>
+
+    <body>
+
+        <h2> You're <br>a <br><b>Sweet-Toothed Tiger!</b></h2>
+        
+
+        <img src="http://res.cloudinary.com/rapha3l/image/upload/v1526162901/sweet-tooth1_zxw9hk.jpg">
+        <p>When it comes to sweets, you're easy to please. You never get bored with traditional recipes and flavors, believing that 
+                classic quality out matches creative quantity. Snack on, Tiger. 
+            </p>
+
+            <h5> <a href="index.html">Home</a></h5>
+    </body>
+    </html>
